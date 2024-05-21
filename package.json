@@ -3,14 +3,20 @@
   "version": "0.0.1",
   "description": "A GraphQL backend server",
   "main": "index.js",
+  "type": "module",
   "repository": "https://github.com/aliciaantunes/graphql-backend-api.git",
   "author": "Alícia Antunes <antunesalicia07@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node src/index.js", 
+    "start": "node src/index.js",
     "listen": "nodemon src/index.js"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.10.4",
+    "graphql": "^16.8.1",
+    "graphql-tag": "^2.12.6"
   }
 }
