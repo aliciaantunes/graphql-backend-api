@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/aliciaantunes/graphql-backend-api.git",
   "author": "Alícia Antunes <antunesalicia07@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js", 
+    "listen": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
