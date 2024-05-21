@@ -1,0 +1,9 @@
+{
+  "name": "graphql-backend-api",
+  "version": "0.0.1",
+  "description": "A GraphQL backend server",
+  "main": "index.js",
+  "repository": "https://github.com/aliciaantunes/graphql-backend-api.git",
+  "author": "Alícia Antunes <antunesalicia07@gmail.com>",
+  "license": "MIT"
+}
